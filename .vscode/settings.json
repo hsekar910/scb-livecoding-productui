@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/b72c712f-258e-4faf-88ef-30725bc09af9/resourceGroups/scb-livecoding-excercise/providers/Microsoft.Web/sites/scb-livecoding-productservice-ui",
+    "appService.deploySubpath": "build"
+}
