@@ -10,7 +10,7 @@ const EditProduct = () => {
   const [isLoading, setIsLoading] = useState(false);
   const { id } = useParams();
   const navigate = useNavigate();
-  const getUserApi = "https://localhost:7127/Product";
+  const getUserApi = "https://scb-livecoding-productservice-api-exhveca2gnaze5fp.southindia-01.azurewebsites.net/Product";
   
   const { getAccessTokenSilently } = useAuth0();
 

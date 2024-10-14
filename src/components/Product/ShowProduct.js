@@ -4,7 +4,7 @@ import Loader from "../Common/Loader";
 import { useAuth0 } from "@auth0/auth0-react";
 
 const ShowUser = () => {
-  const showUserApi = "https://localhost:7127/Product";
+  const showUserApi = "https://scb-livecoding-productservice-api-exhveca2gnaze5fp.southindia-01.azurewebsites.net/Product";
 
   const [user, setUser] = useState([]);
   const [isLoading, setIsLoading] = useState(false);

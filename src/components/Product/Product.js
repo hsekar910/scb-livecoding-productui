@@ -6,7 +6,7 @@ import { useAuth0 } from "@auth0/auth0-react";
 const EditUser = () => {
   const [user, setUser] = useState([]);
   const { id } = useParams();
-  const getUserApi = "https://localhost:7127/Product";
+  const getUserApi = "https://scb-livecoding-productservice-api-exhveca2gnaze5fp.southindia-01.azurewebsites.net/Product";
 
   const { getAccessTokenSilently } = useAuth0();
 

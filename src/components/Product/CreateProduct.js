@@ -6,7 +6,7 @@ import "./Product.css";
 
 const CreateProduct = () => {
   const navigate = useNavigate();
-  const createUserApi = "https://localhost:7127/Product";
+  const createUserApi = "https://scb-livecoding-productservice-api-exhveca2gnaze5fp.southindia-01.azurewebsites.net/Product";
   const [error, setError] = useState(null);
   const [isLoading, setIsLoading] = useState(false);
   const [user, setUser] = useState({
