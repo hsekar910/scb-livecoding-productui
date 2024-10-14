@@ -60,7 +60,7 @@ export default function Header() {
                 <li className="nav-item">
                   <Link
                     className="nav-link"
-                    to="Logout"
+                    to="/"
                     onClick={() => logout()}
                   >
                     Logout
